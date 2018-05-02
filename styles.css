@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,16 +77,16 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: rgba(255,255,255,0.3);
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 15px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
 }
 .card {
   margin: 30px;
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #FFC75F;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #FF9671;
 }
 
 footer {
@@ -151,11 +151,11 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.codepen {
+  background-image: url(images/codepen.png);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+a.email {
+  background-image: url(images/email.png);
 }
 a.github {
   background-image: url(images/github.svg);
@@ -165,6 +165,40 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.kobe {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+}
+
+button {
+  border-radius: 30px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background-color:#007dc1;
+  border:1px solid #124d77;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+}
+
+button:hover {
+  background-color:#0061a7;
+}
+
+button:active {
+  position:relative;
+  top:1px;
 }
 
 /* Styles for larger screens */
