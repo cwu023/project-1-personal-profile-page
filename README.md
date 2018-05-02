@@ -3,8 +3,11 @@
 For this project I created a web page that has my personal profiles.
 
 Technologies used:
-HTML 
+
+HTML
+ 
 CSS
+
 jQuery
 
 
