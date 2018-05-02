@@ -7,3 +7,7 @@ Technology used:
 HTML
 
 CSS
+
+jQuery
+
+Live Demo: https://cwu023.github.io/project-1-personal-profile-page/
