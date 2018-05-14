@@ -4,9 +4,9 @@ For this project I created a web page that has my personal profiles.
 
 Technologies used:
 
-HTML
+HTML5
  
-CSS
+CSS3
 
 jQuery
 
